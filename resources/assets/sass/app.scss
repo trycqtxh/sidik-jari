@@ -1,0 +1,188 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "node_modules/font-awesome-sass/assets/stylesheets/font-awesome";
+
+@import "node_modules/toastr/package/toastr.scss";
+@import "node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.min";
+
+.main-container {
+  margin-top: 65px;
+  min-height: 500px;
+  .menu-sidebar{
+    .panel-body{
+      padding: 0px;
+    }
+  }
+}
+
+.nav-item{
+  display: table-cell;
+  height: 50px;
+  text-align: center;
+  padding-top: 12px;
+
+  .nav-item-link{
+    padding: 0px;
+    text-align: center;
+    height: 100%;
+    line-height: 12px;
+    width: 60px;
+  }
+
+  &-icon{
+    display: inline-block;
+    height: 24px;
+    width: 50px;
+    position: relative;
+    left: auto;
+    top: auto;
+    font-size: 20px;
+  }
+
+  &-title{
+    display: inline-block;
+    font-size: 13px;
+  }
+}
+
+.login-container{
+  margin-top: 10%;
+  min-height: 450px;
+}
+
+.navbar-brand{
+  a:hover{
+    text-decoration: none;
+  }
+}
+.home{
+  min-height: 450px;
+}
+
+.profil-absensi{
+  img{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+  }
+  .img-absensi{
+    margin-bottom: 20px;
+  }
+  table{
+    margin-bottom: 0px;
+  }
+}
+.jam-digital{
+  .panel{
+    background-color: #181752;
+    color: #feff3b;
+  }
+  h3{
+    margin-top: 0px;
+  }
+  hr{
+    margin: 0px;
+  }
+  h1{
+    margin: 10px 0px 0px 0px;
+    font-weight: 600;
+    font-family: 'Orbitron', sans-serif;
+  }
+}
+.panel-absensi {
+
+  .table-absensi{
+    margin: 0px;
+  }
+
+}
+footer{
+  background: #fff;
+  padding: 10px;
+  border-top: 1px solid #d2d6de;
+}
+
+.data-viewer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-info{
+  tr{
+    cursor: pointer;
+  }
+}
+
+.filter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+
+  &-column{
+    flex: 4;
+    padding-right: 15px;
+  }
+  &-operator{
+    flex: 4;
+    padding-right: 15px;
+  }
+  &-input{
+    flex: 6;
+    padding-right: 15px;
+  }
+  &-btn{
+    flex: 1;
+  }
+}
+
+.pagination-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profil{
+  padding: 10px 0px;
+
+  .profile-info{
+    margin: 10px 0px;
+    ul{
+      li{
+        margin: 10px 0px;
+        border-bottom: 1px solid #909090;
+        span{
+          float: right;
+        }
+      }
+    }
+  }
+
+  table{
+    margin-bottom: 0px;
+    tr{
+      td{
+        padding: 5px;
+      }
+      td:nth-child(1){
+        width: 40%;
+      }
+      td:nth-child(2){
+        width: 10px;
+      }
+      td:nth-child(3){
+
+      }
+    }
+  }
+}
